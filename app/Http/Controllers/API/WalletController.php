@@ -50,7 +50,7 @@ class WalletController extends Controller
     }
 
     /**
-     * pay
+     * buycookie
      *
      * @param  Request $request
      * @return Response 
