@@ -44,8 +44,8 @@ Route::middleware(['auth:api'])->group(function () {
     Route::post('/wallet/add', [WalletController::class, 'add']);
 
     /**
-     * Pay from Wallet
-     * endpoint: http://{domain}/api/wallet/pay
+     * Buy Cookie from Wallet
+     * endpoint: http://{domain}/api/wallet/buycookie
      * returns Response
      */
     Route::post('/wallet/buycookie', [WalletController::class, 'buycookie']);
